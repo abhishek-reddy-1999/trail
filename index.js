@@ -1,6 +1,6 @@
 const express=require('express')
 var mongoClient = require("mongodb").MongoClient;
-var abhi=require('./DB/SQL')
+var abhi=require('/SQL')
 var session = require('express-session')
 const app=express()
 const port=4000
