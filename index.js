@@ -26,7 +26,7 @@ app.get('/', function(req, res, next) {
       res.end('welcome to the session demo. refresh!')
     }
   })
-app.listen(port,()=>{
+app.listen(Process.env.port,()=>{
     console.log("server is runnig at port:"+port)
     
 })
