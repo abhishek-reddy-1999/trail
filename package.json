@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "web-vitals": "^3.1.0" ,
   "scripts": {
         "test": "mocha --recursive --reporter mocha-junit-reporter --timeout 60000 --exit",
 
