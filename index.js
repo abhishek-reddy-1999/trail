@@ -1,5 +1,5 @@
 const express=require('express')
-var mongoClient = require("mongodb").MongoClient;
+
 var abhi=require('./SQL')
 var session = require('express-session')
 const app=express()
