@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-        "test": "mocha qa_test/**/*.js --reporter mocha-junit-reporter --timeout 60000 --exit",
+        "test": "mocha --recursive --reporter mocha-junit-reporter --timeout 60000 --exit",
 
     },
   "keywords": [],
