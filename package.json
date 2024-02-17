@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "mocha --recursive test",
-  "bump-version": "npm version patch"
-},
+        "test": "mocha qa_test/**/*.js --reporter mocha-junit-reporter --timeout 60000 --exit",
+
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
