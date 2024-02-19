@@ -5,9 +5,9 @@
   "main": "index.js",
   "web-vitals": "^3.1.0" ,
   "scripts": {
-        "test": "mocha --recursive --reporter mocha-junit-reporter --timeout 60000 --exit",
-
-    },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
