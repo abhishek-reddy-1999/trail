@@ -88,7 +88,7 @@
     "jsbi": "^4.3.0",
     "jsonwebtoken": "^9.0.2",
     "jwa": "^2.0.0",
-    "jws": "^4.0.0",
+    "jws": "^4.0.1",
     "kareem": "^2.5.1",
     "lodash.includes": "^4.3.0",
     "lodash.isboolean": "^3.0.3",
